@@ -1,2 +1,9 @@
-
+     .invalid-feedback {
+            display: none;
+            color: red;
+            font-size: 0.875em;
+        }
+        .is-invalid ~ .invalid-feedback {
+            display: block;
+        }
 /* Your CSS Code here. */
